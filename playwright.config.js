@@ -40,7 +40,7 @@ export default defineConfig({
       name: 'firefox',
       use: { 
         ...devices['Desktop Firefox'],
-        headless: true,
+        headless: false,
       },
     },
 
